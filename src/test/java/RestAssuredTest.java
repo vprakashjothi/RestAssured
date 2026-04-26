@@ -12,7 +12,7 @@ import io.qameta.allure.*;
 public class RestAssuredTest {
 	Response response;
 	String data;
-	
+//Run	
 	@BeforeTest
 	public void Setup() {
 		RestAssured.baseURI="http://localhost:3000";
