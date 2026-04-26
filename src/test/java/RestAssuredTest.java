@@ -117,7 +117,7 @@ public class RestAssuredTest {
 			Reporter.log(result.getName().toString()+" : Failed",true);
 		else
 			Reporter.log(result.getName().toString()+ " : Passed",true);
-//			response=null;
+			response=null;
 	}
 	
 	private void attachResponse(Response response) {
